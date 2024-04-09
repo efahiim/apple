@@ -5,7 +5,7 @@ import { OrbitControls, PerspectiveCamera, View } from "@react-three/drei";
 import * as THREE from "three";
 import Lights from "@components/model/lights";
 import Mesh from "@components/model/mesh";
-import { PhoneModel } from "@types/index";
+import { PhoneModel } from "@interfaces/index";
 import Loader from "@components/loader";
 
 interface Props {

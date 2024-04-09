@@ -7,7 +7,7 @@ import gsap from "gsap";
 import ModelView from "@components/model/view";
 import { yellowImg } from "@utils/index";
 import { models, sizes } from "@constants/index";
-import { PhoneModel } from "@types/index";
+import { PhoneModel } from "@interfaces/index";
 import { animateWithGsapTimeline } from "@utils/animations";
 
 const Model: React.FunctionComponent = () => {
